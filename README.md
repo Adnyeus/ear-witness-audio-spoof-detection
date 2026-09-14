@@ -4,7 +4,6 @@
 [![Signal Processing](https://img.shields.io/badge/Toolbox-Signal%20Processing-blue.svg)](https://www.mathworks.com/products/signal.html)
 [![Statistics & ML](https://img.shields.io/badge/Toolbox-Statistics%20%26%20ML-green.svg)](https://www.mathworks.com/products/statistics.html)
 [![ASVspoof 2019](https://img.shields.io/badge/Dataset-ASVspoof%202019-red.svg)](https://www.asvspoof.org/)
-[![Course](https://img.shields.io/badge/Course-EC--335%20DSP-purple.svg)]()
 
 ## 📖 Overview
 
@@ -38,7 +37,7 @@ The data comes from the ASVspoof 2019 LA benchmark, which contains:
 
 > With a severe 8.8:1 class imbalance, a naïve classifier predicting all samples as "spoof" would achieve 89.8% accuracy while being completely useless. SMOTE-based balancing combined with a linear SVM reduced false alarms by **78%** (from 55% to 11.8%) while maintaining competitive spoof detection.
 
-This is a real-world ML lesson. **Metric selection matters more than model complexity.** For imbalanced security applications, F1-Score and AUC-ROC reveal the truth that accuracy hides.
+This is a real-world ML lesson. Metric selection matters more than model complexity. For imbalanced security applications, F1-Score and AUC-ROC reveal the truth that accuracy hides.
 
 ---
 
@@ -60,7 +59,7 @@ The ASVspoof 2019 LA dataset contains:
 
 ### 2. Feature Extraction Pipeline
 
-For each of the 25,380 audio files, an **86-dimensional feature vector** was extracted:
+For each of the 25,380 audio files, an 86-dimensional feature vector was extracted:
 
 | Feature Type | Count | Description |
 |--------------|------:|-------------|
@@ -280,7 +279,6 @@ Output: All figures in `results/figures/`
 ## 🙏 Acknowledgments
 
 - **ASVspoof 2019 Challenge** for providing the dataset
-- **Dr. Zaki Ud Din** for guidance throughout the project
 - The open-source MATLAB community for excellent documentation
 
 ---
