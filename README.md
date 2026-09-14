@@ -14,9 +14,9 @@ This project tackles audio spoof detection on the ASVspoof 2019 Logical Access (
 The project is part of the Ear-Witness framework, which proposes combining EEG responses with audio forensic features for enhanced spoof detection.
 
 The data comes from the ASVspoof 2019 LA benchmark, which contains:
-- **25,380 audio files** at 16 kHz (16-bit FLAC format)
-- **19 different TTS/VC attack systems** (A01–A19)
-- **2,580 bonafide** and **22,800 spoof** samples (8.8:1 imbalance)
+- 25,380 audio files at 16 kHz (16-bit FLAC format)
+- 19 different TTS/VC attack systems (A01–A19)
+- 2,580 bonafide and 22,800 spoof samples (8.8:1 imbalance)
 
 ### 🏆 Key Results
 
