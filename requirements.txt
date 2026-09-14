@@ -1,0 +1,29 @@
+# Ear-Witness Audio Spoof Detection - MATLAB Dependencies
+# MATLAB does not use pip/requirements.txt, but this file documents required toolboxes
+
+# === MATLAB Version ===
+MATLAB >= R2020a
+
+# === Required MATLAB Toolboxes ===
+Signal Processing Toolbox        # For hamming(), xcorr(), buffer()
+Statistics and Machine Learning Toolbox  # For fitcsvm(), fitcknn(), perfcurve(), confusionchart()
+Audio Toolbox                    # For audioread(), mfcc(), audioDelta()
+
+# === Optional (for extended functionality) ===
+Deep Learning Toolbox            # For future CNN/LSTM extensions
+Parallel Computing Toolbox       # For faster processing on multiple cores
+
+# === External Dataset ===
+# ASVspoof 2019 LA Dataset - Download from:
+# https://www.asvspoof.org/
+# 
+# Expected folder structure:
+#   ASVspoof2019_LA_train/flac/LA_T_*.flac  (25,380 files)
+#   ASVspoof2019_LA_dev/flac/LA_D_*.flac    (24,986 files)
+#   ASVspoof2019_LA_eval/flac/LA_E_*.flac   (71,933 files)
+
+# === Python (optional, for post-analysis) ===
+numpy>=1.21.0
+scipy>=1.7.0
+matplotlib>=3.5.0
+scikit-learn>=1.0.0

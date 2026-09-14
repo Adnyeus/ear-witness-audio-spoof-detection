@@ -1,0 +1,36 @@
+# MATLAB files
+*.asv
+*.m~
+slprj/
+codegen/
+*.autosave
+
+# Data files (too large for GitHub)
+*.mat
+*.flac
+*.wav
+*.mp3
+
+# Dataset folders
+data/ASVspoof2019_LA_train/
+data/ASVspoof2019_LA_dev/
+data/ASVspoof2019_LA_eval/
+E:/LA/
+
+# Results (generated at runtime)
+results/*.mat
+results/*.csv
+results/temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
