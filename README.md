@@ -8,11 +8,11 @@
 
 ## 📖 Overview
 
-This project tackles **audio spoof detection** on the ASVspoof 2019 Logical Access (LA) dataset, a multimodal audio classification task in the domain of audio forensics and anti-spoofing.
+This project tackles audio spoof detection on the ASVspoof 2019 Logical Access (LA) dataset, a multimodal audio classification task in the domain of audio forensics and anti-spoofing.
 
-**The goal:** Classify audio recordings as **bonafide** (genuine human speech) or **spoof** (synthetic/voice-converted speech) by combining Mel-Frequency Cepstral Coefficients (MFCCs) with spectral-temporal features.
+**The goal:** Classify audio recordings as bonafide (genuine human speech) or spoof (synthetic/voice-converted speech) by combining Mel-Frequency Cepstral Coefficients (MFCCs) with spectral-temporal features.
 
-The project is part of the **Ear-Witness** framework, which proposes combining EEG responses with audio forensic features for enhanced spoof detection.
+The project is part of the Ear-Witness framework, which proposes combining EEG responses with audio forensic features for enhanced spoof detection.
 
 The data comes from the ASVspoof 2019 LA benchmark, which contains:
 - **25,380 audio files** at 16 kHz (16-bit FLAC format)
@@ -273,7 +273,7 @@ Output: All figures in `results/figures/`
 - **Farhan Shahid** — Spectral-temporal feature extraction
 - **Khadija Siddiqui** — Spectrogram Visualization and Documentation
 
-[Github](https://github.com/Adnyeus) | [LinkedIn](https://www.linkedin.com/in/ebad-naeem-7984522b8)
+[Github](https://github.com/Adnyeus) | [LinkedIn](https://www.linkedin.com/in/ebad-naeem-7984522b8) | [Portfolio](https://poised-plutonium-331.notion.site/Project-Portfolio-3d1d274aed4c8058a670c2b92fd28d2f)
 
 ---
 
